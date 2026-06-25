@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFB347"/>
+      <stop offset="50%" stop-color="#FF7B54"/>
+      <stop offset="100%" stop-color="#FFC080"/>
+    </linearGradient>
+    <linearGradient id="sea1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2A78C8"/>
+      <stop offset="100%" stop-color="#0A3868"/>
+    </linearGradient>
+  </defs>
+  <!-- Dawn sky -->
+  <rect width="600" height="800" fill="url(#dawn)"/>
+  <!-- Sun just rising -->
+  <circle cx="300" cy="340" r="55" fill="#FFE566"/>
+  <circle cx="300" cy="340" r="90" fill="#FFE56630"/>
+  <!-- Harbour dock -->
+  <rect x="0" y="460" width="600" height="340" fill="url(#sea1)"/>
+  <!-- Dock planks -->
+  <rect x="20" y="440" width="220" height="28" rx="4" fill="#8A6030"/>
+  <line x1="20" y1="447" x2="240" y2="447" stroke="#6A4020" stroke-width="2" opacity="0.5"/>
+  <line x1="20" y1="454" x2="240" y2="454" stroke="#6A4020" stroke-width="2" opacity="0.5"/>
+  <line x1="20" y1="461" x2="240" y2="461" stroke="#6A4020" stroke-width="2" opacity="0.5"/>
+  <!-- Dock posts -->
+  <rect x="40" y="440" width="10" height="50" rx="3" fill="#6A4020"/>
+  <rect x="90" y="440" width="10" height="55" rx="3" fill="#6A4020"/>
+  <rect x="140" y="440" width="10" height="52" rx="3" fill="#6A4020"/>
+  <rect x="200" y="440" width="10" height="50" rx="3" fill="#6A4020"/>
+  <!-- Red boat at dock -->
+  <g transform="translate(180, 415)">
+    <!-- Hull -->
+    <path d="M 8 38 Q 100 5 192 38 L 175 68 Q 100 80 20 68 Z" fill="#CC2222"/>
+    <path d="M 20 68 Q 100 80 175 68 L 180 78 Q 100 92 15 78 Z" fill="#991111"/>
+    <!-- Cabin -->
+    <rect x="64" y="12" width="68" height="36" rx="5" fill="#F0E0C0"/>
+    <rect x="70" y="17" width="20" height="16" fill="#88BBDD" opacity="0.85"/>
+    <rect x="95" y="17" width="20" height="16" fill="#88BBDD" opacity="0.85"/>
+    <!-- Mast -->
+    <line x1="102" y1="12" x2="102" y2="-55" stroke="#8A6030" stroke-width="5"/>
+    <!-- Sail -->
+    <path d="M 102 -52 L 102 5 L 174 -24 Z" fill="white" opacity="0.9"/>
+    <path d="M 102 -52 L 102 5 L 30 -18 Z" fill="#F8E8D0" opacity="0.75"/>
+    <!-- Flag -->
+    <path d="M 102 -55 L 130 -46 L 102 -36 Z" fill="#CC2222"/>
+    <!-- Rope to dock -->
+    <path d="M 22 60 Q 0 65 -15 52" stroke="#8A6030" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- Fisherman silhouette -->
+  <g transform="translate(90, 385)" fill="#3A2010">
+    <circle cx="0" cy="0" r="16"/>
+    <rect x="-12" y="15" width="24" height="42" rx="6"/>
+    <rect x="-22" y="18" width="12" height="28" rx="5"/>
+    <rect x="10" y="18" width="12" height="28" rx="5"/>
+    <rect x="-10" y="55" width="9" height="28" rx="4"/>
+    <rect x="1" y="55" width="9" height="28" rx="4"/>
+  </g>
+  <!-- Seagulls -->
+  <path d="M 380 180 Q 395 170 410 180" stroke="#5A4030" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 440 155 Q 455 145 470 155" stroke="#5A4030" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 490 200 Q 502 191 514 200" stroke="#5A4030" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Wave highlights -->
+  <path d="M 0 490 Q 80 478 160 492 Q 240 506 320 492 Q 400 478 480 492 Q 540 504 600 490" stroke="#FFFFFF30" stroke-width="2.5" fill="none"/>
+  <path d="M 0 525 Q 70 513 150 527 Q 230 541 310 527 Q 390 513 470 527 Q 540 539 600 525" stroke="#FFFFFF22" stroke-width="2" fill="none"/>
+</svg>

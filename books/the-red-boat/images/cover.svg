@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="sea0" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A5FA8"/>
+      <stop offset="100%" stop-color="#0A3060"/>
+    </linearGradient>
+    <linearGradient id="sky0" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A2A5A"/>
+      <stop offset="100%" stop-color="#3A78C8"/>
+    </linearGradient>
+    <linearGradient id="sun0" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FF8C00"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="600" height="800" fill="url(#sky0)"/>
+  <!-- Sun on horizon -->
+  <circle cx="300" cy="410" r="80" fill="url(#sun0)" opacity="0.9"/>
+  <!-- Sun reflection on water -->
+  <ellipse cx="300" cy="450" rx="60" ry="12" fill="#FF9900" opacity="0.5"/>
+  <rect x="270" y="450" width="60" height="130" fill="#FF990044"/>
+  <!-- Horizon line / sea -->
+  <rect x="0" y="420" width="600" height="380" fill="url(#sea0)"/>
+  <!-- Wave highlights -->
+  <path d="M 0 440 Q 75 430 150 445 Q 225 460 300 445 Q 375 430 450 445 Q 525 460 600 445" stroke="#FFFFFF22" stroke-width="3" fill="none"/>
+  <path d="M 0 470 Q 60 458 130 472 Q 200 486 280 472 Q 360 458 430 472 Q 500 486 600 470" stroke="#FFFFFF1A" stroke-width="2" fill="none"/>
+  <path d="M 0 500 Q 80 490 160 504 Q 240 518 320 504 Q 400 490 480 504 Q 540 516 600 500" stroke="#FFFFFF15" stroke-width="2" fill="none"/>
+  <!-- Lighthouse left -->
+  <rect x="40" y="310" width="34" height="110" fill="#E8E0D0"/>
+  <rect x="34" y="302" width="46" height="18" fill="#CC4433"/>
+  <rect x="44" y="288" width="26" height="18" rx="4" fill="#F8F0E0"/>
+  <circle cx="57" cy="282" r="14" fill="#FFD700" opacity="0.9"/>
+  <polygon points="35,420 75,420 72,430 38,430" fill="#C8B8A0"/>
+  <!-- Lighthouse light beam -->
+  <path d="M 57 282 L 300 420" stroke="#FFD70030" stroke-width="18" fill="none"/>
+  <!-- Red boat -->
+  <g transform="translate(220, 390)">
+    <!-- Hull -->
+    <path d="M 10 40 Q 80 10 160 40 L 145 70 Q 80 80 15 70 Z" fill="#CC2222"/>
+    <path d="M 15 70 Q 80 82 145 70 L 150 78 Q 80 92 10 78 Z" fill="#991111"/>
+    <!-- Cabin -->
+    <rect x="55" y="15" width="55" height="32" rx="4" fill="#F0E0C0"/>
+    <rect x="60" y="19" width="16" height="14" fill="#88BBDD" opacity="0.8"/>
+    <rect x="80" y="19" width="16" height="14" fill="#88BBDD" opacity="0.8"/>
+    <!-- Mast -->
+    <line x1="90" y1="15" x2="90" y2="-45" stroke="#8A6030" stroke-width="4"/>
+    <!-- Sail -->
+    <path d="M 90 -42 L 90 5 L 148 -22 Z" fill="white" opacity="0.92"/>
+    <!-- Flag -->
+    <path d="M 90 -45 L 115 -38 L 90 -30 Z" fill="#CC2222"/>
+  </g>
+  <!-- Small waves around boat -->
+  <path d="M 185 448 Q 210 440 240 448" stroke="#FFFFFF44" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 360 448 Q 390 440 415 448" stroke="#FFFFFF44" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Title panel -->
+  <rect x="55" y="596" width="490" height="125" rx="18" fill="#0A2A5A" opacity="0.82"/>
+  <text x="300" y="652" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="50" fill="#FF6622" font-weight="bold">The Red Boat</text>
+  <text x="300" y="697" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" fill="#88BBDD">a story about the sea</text>
+</svg>

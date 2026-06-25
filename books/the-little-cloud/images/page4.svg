@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5090CC"/>
+      <stop offset="100%" stop-color="#C0DCFF"/>
+    </linearGradient>
+    <linearGradient id="ground4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7AC868"/>
+      <stop offset="100%" stop-color="#4A9038"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="600" height="800" fill="url(#sky4)"/>
+  <!-- Ground -->
+  <rect x="0" y="610" width="600" height="190" fill="url(#ground4)"/>
+  <ellipse cx="300" cy="610" rx="330" ry="45" fill="#8ED07C"/>
+  <!-- Cloud — low, raining -->
+  <circle cx="210" cy="230" r="68" fill="white"/>
+  <circle cx="295" cy="196" r="84" fill="white"/>
+  <circle cx="382" cy="222" r="68" fill="white"/>
+  <circle cx="295" cy="258" r="65" fill="white"/>
+  <rect x="157" y="262" width="274" height="66" rx="8" fill="white"/>
+  <!-- Bluish rain-cloud tinge on bottom -->
+  <ellipse cx="295" cy="318" rx="136" ry="18" fill="#B0CCEE" opacity="0.45"/>
+  <!-- Rain drops -->
+  <g fill="#5588CC" opacity="0.7">
+    <ellipse cx="185" cy="370" rx="3" ry="9"/>
+    <ellipse cx="215" cy="395" rx="3" ry="9"/>
+    <ellipse cx="245" cy="365" rx="3" ry="9"/>
+    <ellipse cx="275" cy="390" rx="3" ry="9"/>
+    <ellipse cx="305" cy="360" rx="3" ry="9"/>
+    <ellipse cx="335" cy="385" rx="3" ry="9"/>
+    <ellipse cx="365" cy="368" rx="3" ry="9"/>
+    <ellipse cx="395" cy="393" rx="3" ry="9"/>
+    <ellipse cx="200" cy="420" rx="3" ry="9"/>
+    <ellipse cx="230" cy="445" rx="3" ry="9"/>
+    <ellipse cx="260" cy="418" rx="3" ry="9"/>
+    <ellipse cx="290" cy="440" rx="3" ry="9"/>
+    <ellipse cx="320" cy="415" rx="3" ry="9"/>
+    <ellipse cx="350" cy="442" rx="3" ry="9"/>
+    <ellipse cx="380" cy="422" rx="3" ry="9"/>
+    <ellipse cx="215" cy="468" rx="3" ry="9"/>
+    <ellipse cx="248" cy="490" rx="3" ry="9"/>
+    <ellipse cx="280" cy="472" rx="3" ry="9"/>
+    <ellipse cx="312" cy="495" rx="3" ry="9"/>
+    <ellipse cx="344" cy="470" rx="3" ry="9"/>
+    <ellipse cx="376" cy="488" rx="3" ry="9"/>
+  </g>
+  <!-- Happy flowers blooming -->
+  <g>
+    <line x1="110" y1="610" x2="110" y2="645" stroke="#3A7A1A" stroke-width="3.5"/>
+    <circle cx="110" cy="604" r="16" fill="#FF6B9D"/>
+    <circle cx="110" cy="604" r="8" fill="#FF3375"/>
+    <line x1="195" y1="608" x2="195" y2="642" stroke="#3A7A1A" stroke-width="3.5"/>
+    <circle cx="195" cy="601" r="15" fill="#FFD700"/>
+    <circle cx="195" cy="601" r="7.5" fill="#FFA500"/>
+    <line x1="280" y1="607" x2="280" y2="640" stroke="#3A7A1A" stroke-width="3.5"/>
+    <circle cx="280" cy="600" r="17" fill="#AA55FF"/>
+    <circle cx="280" cy="600" r="8.5" fill="#8833DD"/>
+    <line x1="365" y1="608" x2="365" y2="643" stroke="#3A7A1A" stroke-width="3.5"/>
+    <circle cx="365" cy="601" r="15" fill="#FF6B9D"/>
+    <circle cx="365" cy="601" r="7.5" fill="#FF3375"/>
+    <line x1="450" y1="610" x2="450" y2="645" stroke="#3A7A1A" stroke-width="3.5"/>
+    <circle cx="450" cy="603" r="16" fill="#FFD700"/>
+    <circle cx="450" cy="603" r="8" fill="#FFA500"/>
+    <!-- petals on big flowers -->
+    <circle cx="93" cy="593" r="8" fill="#FF9EBF" opacity="0.8"/>
+    <circle cx="127" cy="593" r="8" fill="#FF9EBF" opacity="0.8"/>
+    <circle cx="110" cy="588" r="8" fill="#FF9EBF" opacity="0.8"/>
+  </g>
+  <!-- Rain puddles -->
+  <ellipse cx="155" cy="625" rx="22" ry="6" fill="#88AACC" opacity="0.5"/>
+  <ellipse cx="330" cy="630" rx="18" ry="5" fill="#88AACC" opacity="0.5"/>
+  <ellipse cx="490" cy="622" rx="20" ry="5" fill="#88AACC" opacity="0.5"/>
+  <!-- Cloud face - happy -->
+  <circle cx="270" cy="235" r="7" fill="#5588CC"/>
+  <circle cx="318" cy="226" r="7" fill="#5588CC"/>
+  <circle cx="272" cy="238" r="3.5" fill="#1A3A70"/>
+  <circle cx="320" cy="229" r="3.5" fill="#1A3A70"/>
+  <path d="M 274 258 Q 294 270 316 258" stroke="#88AACC" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,54 @@
+{
+  "title": "The Red Boat",
+  "languages": [
+    { "code": "en", "label": "English" },
+    { "code": "es", "label": "Español" },
+    { "code": "it", "label": "Italiano" }
+  ],
+  "pages": [
+    {
+      "image": "images/cover.svg",
+      "text": { "en": "", "es": "", "it": "" }
+    },
+    {
+      "image": "images/page1.svg",
+      "text": {
+        "en": "Every morning, the old fisherman set out in his little red boat.",
+        "es": "Cada mañana, el viejo pescador salía en su pequeño barco rojo.",
+        "it": "Ogni mattina, il vecchio pescatore partiva sulla sua piccola barca rossa."
+      }
+    },
+    {
+      "image": "images/page2.svg",
+      "text": {
+        "en": "He knew every rock and every wave along the coast.",
+        "es": "Conocía cada roca y cada ola de la costa.",
+        "it": "Conosceva ogni roccia e ogni onda lungo la costa."
+      }
+    },
+    {
+      "image": "images/page3.svg",
+      "text": {
+        "en": "One afternoon, dark clouds rolled in from the sea.",
+        "es": "Una tarde, oscuras nubes llegaron desde el mar.",
+        "it": "Un pomeriggio, nuvole scure arrivarono dal mare."
+      }
+    },
+    {
+      "image": "images/page4.svg",
+      "text": {
+        "en": "The waves crashed high, but the little red boat held on.",
+        "es": "Las olas rompían alto, pero el pequeño barco rojo aguantó.",
+        "it": "Le onde si infrangevano alte, ma la piccola barca rossa resistette."
+      }
+    },
+    {
+      "image": "images/page5.svg",
+      "text": {
+        "en": "By sunset, the harbour lights were shining to welcome him home.",
+        "es": "Al atardecer, las luces del puerto brillaban para darle la bienvenida.",
+        "it": "Al tramonto, le luci del porto brillavano per accoglierlo a casa."
+      }
+    }
+  ]
+}

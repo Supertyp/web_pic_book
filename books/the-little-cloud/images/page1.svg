@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A3E7A"/>
+      <stop offset="60%" stop-color="#3A7BD5"/>
+      <stop offset="100%" stop-color="#A8D0F0"/>
+    </linearGradient>
+    <linearGradient id="mtn1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8899AA"/>
+      <stop offset="100%" stop-color="#5A6A7A"/>
+    </linearGradient>
+    <linearGradient id="mtn2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#AAB8C2"/>
+      <stop offset="100%" stop-color="#7A8A94"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="600" height="800" fill="url(#sky1)"/>
+  <!-- Stars -->
+  <circle cx="80" cy="60" r="2" fill="white" opacity="0.7"/>
+  <circle cx="150" cy="40" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="240" cy="75" r="2" fill="white" opacity="0.5"/>
+  <circle cx="50" cy="120" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="380" cy="50" r="2" fill="white" opacity="0.7"/>
+  <!-- Mountains background -->
+  <polygon points="0,600 150,320 300,580 0,580" fill="#6A7A88" opacity="0.6"/>
+  <polygon points="100,600 320,260 500,580 100,580" fill="url(#mtn1)"/>
+  <polygon points="300,600 480,300 650,560 300,580" fill="url(#mtn2)"/>
+  <!-- Snow caps -->
+  <polygon points="320,260 290,330 350,330" fill="white" opacity="0.85"/>
+  <polygon points="480,300 455,360 505,360" fill="white" opacity="0.75"/>
+  <!-- Ground -->
+  <rect x="0" y="590" width="600" height="210" fill="#4A7A3A"/>
+  <ellipse cx="300" cy="590" rx="320" ry="40" fill="#5A8A4A"/>
+  <!-- Lone little cloud high up -->
+  <circle cx="180" cy="155" r="38" fill="white" opacity="0.95"/>
+  <circle cx="225" cy="135" r="46" fill="white" opacity="0.95"/>
+  <circle cx="275" cy="150" r="38" fill="white" opacity="0.95"/>
+  <rect x="148" y="162" width="152" height="40" rx="6" fill="white" opacity="0.95"/>
+  <!-- Cloud shading -->
+  <ellipse cx="222" cy="195" rx="72" ry="10" fill="#CADCF0" opacity="0.4"/>
+</svg>

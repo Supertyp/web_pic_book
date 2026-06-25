@@ -1,0 +1,54 @@
+{
+  "title": "The Little Cloud",
+  "languages": [
+    { "code": "en", "label": "English" },
+    { "code": "de", "label": "Deutsch" },
+    { "code": "fr", "label": "Français" }
+  ],
+  "pages": [
+    {
+      "image": "images/cover.svg",
+      "text": { "en": "", "de": "", "fr": "" }
+    },
+    {
+      "image": "images/page1.svg",
+      "text": {
+        "en": "High above the world, a little cloud drifted all alone.",
+        "de": "Hoch über der Welt trieb ein kleines Wölkchen ganz alleine.",
+        "fr": "Haut au-dessus du monde, un petit nuage flottait tout seul."
+      }
+    },
+    {
+      "image": "images/page2.svg",
+      "text": {
+        "en": "She looked down and saw green fields and tiny houses.",
+        "de": "Sie schaute hinunter und sah grüne Felder und winzige Häuser.",
+        "fr": "Elle regarda en bas et vit des champs verts et de petites maisons."
+      }
+    },
+    {
+      "image": "images/page3.svg",
+      "text": {
+        "en": "She wondered: what would it feel like to touch the earth?",
+        "de": "Sie fragte sich: Wie würde es sich anfühlen, die Erde zu berühren?",
+        "fr": "Elle se demanda : à quoi ressemblerait le contact avec la terre ?"
+      }
+    },
+    {
+      "image": "images/page4.svg",
+      "text": {
+        "en": "She drifted down and let her rain fall gently on the flowers.",
+        "de": "Sie trieb herab und ließ ihren Regen sanft auf die Blumen fallen.",
+        "fr": "Elle descendit et laissa tomber sa pluie sur les fleurs."
+      }
+    },
+    {
+      "image": "images/page5.svg",
+      "text": {
+        "en": "And as she rose back into the sky, a rainbow said goodbye.",
+        "de": "Und als sie wieder aufstieg, verabschiedete sich ein Regenbogen.",
+        "fr": "Et tandis qu'elle remontait, un arc-en-ciel lui dit au revoir."
+      }
+    }
+  ]
+}

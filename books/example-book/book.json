@@ -1,0 +1,34 @@
+{
+  "title": "The Little Explorer",
+  "languages": [
+    { "code": "en", "label": "English" },
+    { "code": "de", "label": "Deutsch" },
+    { "code": "fr", "label": "Français" }
+  ],
+  "pages": [
+    {
+      "image": "images/cover.jpg",
+      "text": {
+        "en": "",
+        "de": "",
+        "fr": ""
+      }
+    },
+    {
+      "image": "images/page1.jpg",
+      "text": {
+        "en": "Once upon a time, a little explorer set off on a great adventure.",
+        "de": "Es war einmal ein kleiner Entdecker, der sich auf ein großes Abenteuer begab.",
+        "fr": "Il était une fois un petit explorateur qui partait pour une grande aventure."
+      }
+    },
+    {
+      "image": "images/page2.jpg",
+      "text": {
+        "en": "She packed her bag with everything she might need.",
+        "de": "Sie packte ihre Tasche mit allem, was sie brauchen könnte.",
+        "fr": "Elle remplit son sac de tout ce dont elle pourrait avoir besoin."
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A2A4A"/>
+      <stop offset="30%" stop-color="#A03820"/>
+      <stop offset="60%" stop-color="#E87030"/>
+      <stop offset="85%" stop-color="#FFB050"/>
+      <stop offset="100%" stop-color="#FFD080"/>
+    </linearGradient>
+    <linearGradient id="sea5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2A5A8A"/>
+      <stop offset="100%" stop-color="#0A1830"/>
+    </linearGradient>
+    <linearGradient id="sunGlow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FF6600" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Sunset sky -->
+  <rect width="600" height="800" fill="url(#sunset)"/>
+  <!-- Sun low on horizon -->
+  <circle cx="300" cy="418" r="64" fill="#FFD050" opacity="0.95"/>
+  <circle cx="300" cy="418" r="90" fill="#FFA03060"/>
+  <circle cx="300" cy="418" r="130" fill="#FF802020"/>
+  <!-- Sun reflection path on water -->
+  <path d="M 240 440 L 200 600 L 400 600 L 360 440 Z" fill="#FF8820" opacity="0.35"/>
+  <path d="M 260 440 L 240 560 L 360 560 L 340 440 Z" fill="#FFB030" opacity="0.28"/>
+  <!-- Sea -->
+  <rect x="0" y="428" width="600" height="372" fill="url(#sea5)"/>
+  <!-- Calm wave lines (peaceful now) -->
+  <path d="M 0 448 Q 80 436 160 448 Q 240 460 320 448 Q 400 436 480 448 Q 540 458 600 448" stroke="#FFFFFF25" stroke-width="2.5" fill="none"/>
+  <path d="M 0 478 Q 90 468 178 480 Q 266 492 354 480 Q 442 468 530 480 Q 565 488 600 478" stroke="#FFFFFF1E" stroke-width="2" fill="none"/>
+  <path d="M 0 512 Q 80 502 165 514 Q 250 526 335 514 Q 420 502 505 514 Q 552 522 600 512" stroke="#FFFFFF18" stroke-width="2" fill="none"/>
+  <!-- Harbour silhouette right -->
+  <!-- Quay wall -->
+  <rect x="380" y="380" width="220" height="55" fill="#1A1020"/>
+  <!-- Harbour buildings -->
+  <rect x="400" y="320" width="45" height="62" fill="#1A1020"/>
+  <rect x="452" y="335" width="55" height="46" fill="#151018"/>
+  <rect x="515" y="325" width="38" height="56" fill="#1A1020"/>
+  <rect x="560" y="340" width="40" height="42" fill="#151018"/>
+  <!-- Building windows — warm lit up -->
+  <rect x="408" y="328" width="10" height="9" fill="#FFD070" opacity="0.9"/>
+  <rect x="424" y="328" width="10" height="9" fill="#FFD070" opacity="0.85"/>
+  <rect x="408" y="344" width="10" height="9" fill="#FFB840" opacity="0.9"/>
+  <rect x="424" y="344" width="10" height="9" fill="#FFB840" opacity="0.8"/>
+  <rect x="460" y="342" width="11" height="9" fill="#FFD070" opacity="0.9"/>
+  <rect x="477" y="342" width="11" height="9" fill="#FFB840" opacity="0.85"/>
+  <rect x="460" y="356" width="11" height="9" fill="#FFD070" opacity="0.8"/>
+  <rect x="521" y="332" width="10" height="9" fill="#FFD070" opacity="0.9"/>
+  <rect x="535" y="332" width="10" height="9" fill="#FFB840" opacity="0.85"/>
+  <rect x="521" y="347" width="10" height="9" fill="#FFD070" opacity="0.8"/>
+  <rect x="567" y="348" width="10" height="8" fill="#FFD070" opacity="0.9"/>
+  <!-- Lighthouse at quay -->
+  <rect x="570" y="310" width="22" height="72" fill="#E0D8C8"/>
+  <rect x="566" y="302" width="30" height="14" fill="#CC4433"/>
+  <rect x="572" y="290" width="18" height="14" rx="3" fill="#F8F0E0"/>
+  <circle cx="581" cy="284" r="10" fill="#FFD070" opacity="0.95"/>
+  <!-- Lighthouse beam -->
+  <path d="M 581 284 L 300 420" stroke="#FFD07028" stroke-width="22" fill="none"/>
+  <path d="M 581 284 L 240 400" stroke="#FFD07015" stroke-width="35" fill="none"/>
+  <!-- Harbour light reflections on water -->
+  <ellipse cx="450" cy="445" rx="25" ry="6" fill="#FFD070" opacity="0.3"/>
+  <ellipse cx="530" cy="448" rx="18" ry="5" fill="#FFD070" opacity="0.25"/>
+  <!-- Red boat arriving — small, silhouetted with red showing -->
+  <g transform="translate(90, 400)">
+    <path d="M 5 36 Q 72 10 138 36 L 124 60 Q 72 70 18 60 Z" fill="#CC2222"/>
+    <path d="M 18 60 Q 72 70 124 60 L 128 68 Q 72 80 14 68 Z" fill="#991111"/>
+    <rect x="46" y="11" width="52" height="30" rx="4" fill="#2A1A08"/>
+    <!-- warm cabin light -->
+    <rect x="50" y="15" width="14" height="12" fill="#FFD070" opacity="0.7"/>
+    <rect x="68" y="15" width="14" height="12" fill="#FFD070" opacity="0.6"/>
+    <line x1="77" y1="11" x2="77" y2="-44" stroke="#6A4020" stroke-width="4"/>
+    <path d="M 77 -42 L 77 4 L 130 -18 Z" fill="#2A1A08" opacity="0.9"/>
+    <path d="M 77 -42 L 77 4 L 24 -14 Z" fill="#2A1A08" opacity="0.75"/>
+    <path d="M 77 -44 L 98 -36 L 77 -26 Z" fill="#CC2222"/>
+  </g>
+  <!-- Stars just appearing -->
+  <circle cx="80" cy="55" r="2" fill="white" opacity="0.8"/>
+  <circle cx="160" cy="38" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="220" cy="68" r="2" fill="white" opacity="0.65"/>
+  <circle cx="48" cy="112" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="340" cy="48" r="1.8" fill="white" opacity="0.6"/>
+</svg>

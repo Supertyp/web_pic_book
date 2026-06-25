@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <defs>
+    <linearGradient id="sky5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2255A0"/>
+      <stop offset="45%" stop-color="#5090D8"/>
+      <stop offset="100%" stop-color="#C8E8FF"/>
+    </linearGradient>
+    <linearGradient id="ground5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#88D070"/>
+      <stop offset="100%" stop-color="#4A8A38"/>
+    </linearGradient>
+    <!-- Rainbow gradients -->
+    <linearGradient id="rbow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF4040"/>
+      <stop offset="20%" stop-color="#FF9900"/>
+      <stop offset="40%" stop-color="#FFE600"/>
+      <stop offset="60%" stop-color="#44CC44"/>
+      <stop offset="80%" stop-color="#2288FF"/>
+      <stop offset="100%" stop-color="#AA44FF"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="600" height="800" fill="url(#sky5)"/>
+  <!-- Rainbow arcs -->
+  <path d="M -30 680 A 420 420 0 0 1 630 680" stroke="url(#rbow)" stroke-width="22" fill="none" opacity="0.75" stroke-linecap="round"/>
+  <path d="M -10 680 A 400 400 0 0 1 610 680" stroke="url(#rbow)" stroke-width="16" fill="none" opacity="0.55" stroke-linecap="round"/>
+  <path d="M 10 680 A 380 380 0 0 1 590 680" stroke="url(#rbow)" stroke-width="10" fill="none" opacity="0.4" stroke-linecap="round"/>
+  <!-- Ground -->
+  <rect x="0" y="618" width="600" height="182" fill="url(#ground5)"/>
+  <ellipse cx="300" cy="618" rx="330" ry="48" fill="#9ADC80"/>
+  <!-- Happy full flowers -->
+  <g>
+    <line x1="80" y1="618" x2="80" y2="655" stroke="#2A6A10" stroke-width="4"/>
+    <circle cx="80" cy="611" r="18" fill="#FF6B9D"/>
+    <circle cx="63" cy="602" r="10" fill="#FF9EBF"/>
+    <circle cx="97" cy="602" r="10" fill="#FF9EBF"/>
+    <circle cx="80" cy="596" r="10" fill="#FF9EBF"/>
+    <circle cx="80" cy="611" r="9" fill="#FF1166"/>
+
+    <line x1="170" y1="616" x2="170" y2="652" stroke="#2A6A10" stroke-width="4"/>
+    <circle cx="170" cy="609" r="17" fill="#FFD700"/>
+    <circle cx="154" cy="600" r="9" fill="#FFE566"/>
+    <circle cx="186" cy="600" r="9" fill="#FFE566"/>
+    <circle cx="170" cy="594" r="9" fill="#FFE566"/>
+    <circle cx="170" cy="609" r="8.5" fill="#FF9900"/>
+
+    <line x1="260" y1="614" x2="260" y2="650" stroke="#2A6A10" stroke-width="4"/>
+    <circle cx="260" cy="607" r="19" fill="#AA55FF"/>
+    <circle cx="242" cy="597" r="10" fill="#CC88FF"/>
+    <circle cx="278" cy="597" r="10" fill="#CC88FF"/>
+    <circle cx="260" cy="591" r="10" fill="#CC88FF"/>
+    <circle cx="260" cy="607" r="9.5" fill="#7722CC"/>
+
+    <line x1="350" y1="616" x2="350" y2="652" stroke="#2A6A10" stroke-width="4"/>
+    <circle cx="350" cy="609" r="17" fill="#FF7744"/>
+    <circle cx="334" cy="600" r="9" fill="#FF9977"/>
+    <circle cx="366" cy="600" r="9" fill="#FF9977"/>
+    <circle cx="350" cy="594" r="9" fill="#FF9977"/>
+    <circle cx="350" cy="609" r="8.5" fill="#DD4422"/>
+
+    <line x1="435" y1="618" x2="435" y2="655" stroke="#2A6A10" stroke-width="4"/>
+    <circle cx="435" cy="611" r="18" fill="#FF6B9D"/>
+    <circle cx="418" cy="602" r="10" fill="#FF9EBF"/>
+    <circle cx="452" cy="602" r="10" fill="#FF9EBF"/>
+    <circle cx="435" cy="596" r="10" fill="#FF9EBF"/>
+    <circle cx="435" cy="611" r="9" fill="#FF1166"/>
+
+    <line x1="520" y1="616" x2="520" y2="652" stroke="#2A6A10" stroke-width="4"/>
+    <circle cx="520" cy="609" r="17" fill="#44BBFF"/>
+    <circle cx="504" cy="600" r="9" fill="#88DDFF"/>
+    <circle cx="536" cy="600" r="9" fill="#88DDFF"/>
+    <circle cx="520" cy="594" r="9" fill="#88DDFF"/>
+    <circle cx="520" cy="609" r="8.5" fill="#1188DD"/>
+  </g>
+  <!-- Cloud rising, small, up high -->
+  <circle cx="360" cy="115" r="40" fill="white" opacity="0.92"/>
+  <circle cx="410" cy="95" r="50" fill="white" opacity="0.92"/>
+  <circle cx="462" cy="112" r="40" fill="white" opacity="0.92"/>
+  <rect x="327" y="120" width="180" height="44" rx="6" fill="white" opacity="0.92"/>
+  <ellipse cx="410" cy="158" rx="88" ry="11" fill="#B8D0E8" opacity="0.35"/>
+  <!-- Cloud happy face, small -->
+  <circle cx="393" cy="110" r="5" fill="#5588CC"/>
+  <circle cx="425" cy="103" r="5" fill="#5588CC"/>
+  <circle cx="394" cy="113" r="2.5" fill="#1A3A70"/>
+  <circle cx="426" cy="106" r="2.5" fill="#1A3A70"/>
+  <path d="M 395 124 Q 410 131 425 124" stroke="#88AACC" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

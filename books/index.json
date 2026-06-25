@@ -1,0 +1,14 @@
+[
+  {
+    "id": "the-little-cloud",
+    "title": "The Little Cloud",
+    "cover": "books/the-little-cloud/images/cover.svg",
+    "languages": ["English", "Deutsch", "Français"]
+  },
+  {
+    "id": "the-red-boat",
+    "title": "The Red Boat",
+    "cover": "books/the-red-boat/images/cover.svg",
+    "languages": ["English", "Español", "Italiano"]
+  }
+]
